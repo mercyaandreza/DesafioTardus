@@ -1,0 +1,167 @@
+html, 
+body{
+    font-family: Roboto;
+    text-align: left;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+}
+
+.nome-tardus{
+    font-size: 22px;
+    color: #026FC2;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nome-pessoa{
+    margin: auto;
+}
+
+.info-status{
+    display: block;
+}
+
+.logout{
+    text-align: right;
+}
+
+.logo-image{
+    height: 50px;
+    width: 50px;
+}
+
+.nome {
+    font-size: 18px;
+    color: #748998;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.info-nome{
+    font-size: 14px;
+    color: #9DAFBD;
+    margin-bottom: 0px;
+}
+
+.info-status{
+    font-size: 14px;
+    color: #9DAFBD;
+    margin: auto;
+}
+
+.logout{
+    padding-right: 5em;
+    margin: auto 0;
+}
+
+div.imagem{
+    float: left;
+}
+
+div.informacao{
+    float: right;
+}
+
+.info-nome span:nth-child(2){
+    margin-left: 10px;
+}
+
+.nome-status{
+    font-size: 14px;
+    text-align: left;
+    color: #9DAFBD;
+    margin: auto 10px;
+}
+
+.atendendo-mensagem{
+    display: block;
+}
+
+.contador{
+  display: inline-flex;
+  padding: 7px;
+  background-color: #026FC2;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+
+.group-status {
+    display: inline-flex;
+}
+
+.clock-image{
+    margin: 0 5px;
+}
+
+p.clock-info {
+    margin-bottom: 0px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.logout .informacao{
+    display: contents;
+}
+
+.logout .imagem{
+    float: right;
+}
+
+.menu{
+    padding: 4em 2em;
+}
+
+.view{
+    padding: 0px;
+}
+
+.mensagem-bem-vindo{
+    font-size: 52px;
+    text-align: center;
+    font-weight: bold;
+    color: #9DAFBD;
+    font-family: Roboto;
+    border: 20px solid #E8EAEB;
+    border-radius: 5px;
+    padding: 20vw;
+    margin-bottom: 0px;
+}
+
+main.col-md-12 {
+    display: inline-flex;
+    padding: 0px;
+    height: 100%;
+}
+
+.itens-menu{
+    display: block;
+    padding: 0px;
+    border-bottom: 1px solid #EBEBEB;
+    font-size: 15px;
+    color: #9DAFBD;
+    margin-bottom: 15px;
+    margin: 30px 0px 0px 0px;
+}
+
+span.box{
+    padding: 25px;
+    border-radius: 5px;
+    background: #9DAFBD;
+    display: inline-flex;
+    margin-bottom: 0px;
+}
+
+.itens-menu.especial span.box{
+    background: #026FC2
+}
+
+.menu-texto{
+    margin-bottom: 30px;
+    display: -webkit-inline-box;
+    padding: 0px 20px;
+    text-align: center;
+}
